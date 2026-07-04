@@ -26,7 +26,7 @@ public class Main_switchex {
                      if (saldo<0){
                          System.out.println("Saldo insuficiente");
                          break;
-                     }
+                     } break;
                      System.out.printf("Seu saldo com o valor é:%1f" , saldo);
 
                  case 0:
