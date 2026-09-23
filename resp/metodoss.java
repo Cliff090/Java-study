@@ -90,8 +90,7 @@ public class metodoss{
                             return vf = valor1/valor2;
                         }break;
                         
-                        
-            
+                      
         }while (opcao!=0)
     }
 }
