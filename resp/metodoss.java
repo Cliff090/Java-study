@@ -60,6 +60,38 @@ public class metodoss{
         }
     }
     public double calculadora(double valor1, double valor2){
-        Scanner 
+        Scanner sc = new Scanner(System.in);
+
+        int opcao;
+        do{
+            System.out.println("=========");
+            System.out.println("Calculadora");
+            System.out.println("digite 1 para adiçao");
+            System.out.println("digite 2 para subtração");
+            System.out.println("digite 3 para multiplicação");
+            System.out.println("digite 4 para divisão");
+            System.out.println("digite 0 para sair")
+            opcao = sc.nextInt();
+
+            switch(opcao):
+                case 1:
+                        return vf=valor1+valor2;
+                        break;
+                case 2:
+                        return vf =valor1-valor2;
+                        break;
+                case 3:
+                        return vf = valor1*valor2;
+                        break;
+                case 4:
+                        if (valor2>valor1){
+                            return vf = valor2/valor1;
+                        }else{
+                            return vf = valor1/valor2;
+                        }break;
+                        
+                        
+            
+        }while (opcao!=0)
     }
 }
