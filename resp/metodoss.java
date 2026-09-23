@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class metodoss{
 
 
@@ -38,5 +39,27 @@ public class metodoss{
             System.out.printf("Valor da compra: %.2f% ", compra)
         }
     }
-    public void
+    public void salario(double salario){
+       if (salario<2000){
+           aumento = salario*0.15;
+           valorfinal= salario+aumento;
+           System.out.printf("O salario inicial é de %.2f% e com aumento esta %.2f%",salario,valorfinal)
+       }else{
+           aumento = salario*0.10;
+           valorfinal= salario+aumento;
+           System.out.printf("O salario inicial é de %.2f% e com aumento esta %.2f%",salario,valorfinal)
+       }
+    }
+    public void classifica(int idade){
+        if (idade<12){
+           System.out.println("criança");
+        }else if (idade>12 && idade<18){
+            System.out.println("adolescente")
+        }else{
+            System.out.println("adulto")
+        }
+    }
+    public double calculadora(double valor1, double valor2){
+        Scanner 
+    }
 }
